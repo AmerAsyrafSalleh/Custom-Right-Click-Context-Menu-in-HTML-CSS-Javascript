@@ -100,4 +100,47 @@ CSS stands for 'Cascading Style Sheets'. CSS describes how HTML elements are to 
 
 With proper consideration for formatting and a sprinkle of a bit of creativity, one could come up with a context menu looking like this one below:
 
-![Screenshot_1]()
+![Screenshot_1](images/Screenshot_20221102_110316.png)
+
+First off, we style the fonts to be used for this interface. Any existing fonts are suitable to use. However, I choose to import a font provided by GoogleAPI. These are the choices of formats below:
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+```
+
+Next, we move on with styling the body tag:
+
+```css
+body
+{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #8855E9 0%, #5D6BE6 100%);
+
+}
+```
+
+Then, we style the wrapper that hold our app:
+
+```css
+.wrapper
+{
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+}
+
+.wrapper .menu
+{
+    padding: 10px 12px;
+}
+
+```
