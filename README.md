@@ -1,6 +1,6 @@
 # Custom Right Click Context Menu in HTML CSS & Javascript
 
-This is a simple custom context menu that can be accessed by right-clicking inside the page and disappears when left-clicked inside the page. Within the selections, it can also have sub-menus.
+This is a simple custom context menu that can be accessed by right-clicking inside the page and disappears when left-clicked inside the page. Within the selections, it can also have sub-menus. Here is a link to the preview: https://htmlpreview.github.io/?https://github.com/AmerAsyrafSalleh/Custom-Right-Click-Context-Menu-in-HTML-CSS-and-Javascript/blob/main/index.html
 
 This context menu consists of 3 files to function:
 
